@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Astloch&family=Nova+Cut&family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dawnlaser {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 20px;
+}
+
+.game-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  font-family: "Astloch", cursive;
+  color: black;
+}
+
+.cover {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+}
+
+.setting_overview {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+
+.cathedral_content {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  color: white;
+}
+.game_overview {
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  color: white;
+}
+
+.setting_text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.25em;
+}
+
+.overview_text {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4em;
+  font-family: "Nova Cut", cursive;
+}
+
+.actions {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  grid-template-columns: 50% 50%;
+  font-size: 4em;
+  font-family: "Nova Cut", cursive;
+}
+
+h1 {
+  color: red;
+  font-family: "Astloch", cursive;
+  font-size: 1.5em;
+}
+
+h2 {
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+h3 {
+  color: gray;
+  font-family: "Ubuntu Mono", monospace;
+}
+
+p {
+  color: white;
+  font-family: "Ubuntu Mono", monospace;
+}

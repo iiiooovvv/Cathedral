@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Astloch&family=Nova+Cut&family=Ubuntu+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  padding-top: 60px;
+}
+
+h2 {
+  padding-top: 30px;
+}
